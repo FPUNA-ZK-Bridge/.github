@@ -26,13 +26,7 @@ Los puentes entre cadenas (cross-chain bridges) son componentes críticos en el 
 
 ## 🏗️ Arquitectura General
 
-```mermaid
-flowchart TD
-    A[Blockchain L1] -->|Prueba generada| B[Relayer ZK]
-    C[Blockchain L2] -->|Prueba verificada| B[Relayer ZK]
-    B -->|Cross-Chain Communication| A
-    B --> C
-```
+
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
